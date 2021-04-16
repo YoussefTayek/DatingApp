@@ -46,7 +46,7 @@ namespace API.Controllers
 
         }
 
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
             /**Retrieve user from database**/
